@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\OneDrive\\Masa\u00FCst\u00FC\\StudentProject\\Student.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{54D6280A-F593-4637-8368-0E0C1F87D450}|Student.API\\Student.API.csproj|c:\\users\\user\\onedrive\\masa\u00FCst\u00FC\\studentproject\\student.api\\student.api\\datamodels\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54D6280A-F593-4637-8368-0E0C1F87D450}|Student.API\\Student.API.csproj|solutionrelative:student.api\\datamodels\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D6280A-F593-4637-8368-0E0C1F87D450}|Student.API\\Student.API.csproj|c:\\users\\user\\onedrive\\masa\u00FCst\u00FC\\studentproject\\student.api\\student.api\\datamodels\\studentadmincontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54D6280A-F593-4637-8368-0E0C1F87D450}|Student.API\\Student.API.csproj|solutionrelative:student.api\\datamodels\\studentadmincontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Masa\u00FCst\u00FC\\StudentProject\\Student.API\\Student.API\\DataModels\\Student.cs",
+              "RelativeDocumentMoniker": "Student.API\\DataModels\\Student.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Masa\u00FCst\u00FC\\StudentProject\\Student.API\\Student.API\\DataModels\\Student.cs",
+              "RelativeToolTip": "Student.API\\DataModels\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T10:45:37.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentAdminContext.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Masa\u00FCst\u00FC\\StudentProject\\Student.API\\Student.API\\DataModels\\StudentAdminContext.cs",
+              "RelativeDocumentMoniker": "Student.API\\DataModels\\StudentAdminContext.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Masa\u00FCst\u00FC\\StudentProject\\Student.API\\Student.API\\DataModels\\StudentAdminContext.cs",
+              "RelativeToolTip": "Student.API\\DataModels\\StudentAdminContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T12:02:13.311Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

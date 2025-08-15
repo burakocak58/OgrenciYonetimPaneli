@@ -1,0 +1,263 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.page-header {
+    background-color: #f5f5f5;
+    
+}
+.page-header h1 {
+    margin: 0;
+    padding: 20px 0;
+    
+}
+.table-responsive {
+    margin-top: 20px;
+}
+.ozel-paginator .mat-menu-panel {
+  background-color: white !important;
+}
+
+.ozel-paginator .mat-menu-item {
+  background-color: white !important;
+  color: black !important;
+}
+.cdk-overlay-pane .mat-menu-panel {
+  background-color: white !important;
+}
+/* Bu stil sadece 'beyaz-menu' sınıfına sahip menülere uygulanır */
+.beyaz-menu {
+  background-color: white !important;
+}
+
+.beyaz-menu .mat-option {
+  background-color: white !important;
+  color: black !important;
+}
+
+.beyaz-menu .mat-option:hover {
+  background-color: #f5f5f5 !important;
+}
+.mat-calendar-body-cell-content.mat-calendar-body-selected {
+  background-color: #007bff !important; /* Mavi renk örneği */
+  color: white !important; /* Seçili tarihin metin rengi */
+}
+/* styles.scss veya styles.css dosyanıza ekleyin */
+
+/* Bugünün tarihinin (seçili değilse) halka rengini değiştirir */
+.mat-calendar-body-cell-content.mat-calendar-body-today {
+  border-color: #333 !important; /* Koyu gri halka */
+}
+/* Bugünün tarihini belirten halkanın rengini değiştirir (seçili değilse) */
+.mat-calendar-body-cell-content.mat-calendar-body-today {
+  border-color: #333 !important; /* Koyu gri halka */
+}
+
+/* Takvim başlığının (ay ve yıl) rengini değiştirir */
+.mat-calendar-period-button {
+  color: #007bff !important;
+}
+
+/* Ayın günlerinin (1, 2, 3...) metin rengini değiştirir */
+.mat-calendar-body-cell-content {
+  color: #333 !important;
+}
+
+/* Hafta içi başlıklarının (S, M, T...) metin rengini değiştirir */
+.mat-calendar-table-header th {
+  color: #666 !important;
+}
+
+/* Ok butonlarının (önceki/sonraki ay) rengini değiştirir */
+.mat-calendar-next-button,
+.mat-calendar-previous-button {
+  color: #007bff !important;
+}
+.mat-calendar {
+  background-color: #f7f7f7 !important; /* Açık gri tonu */
+}
+/* Sadece "my-custom-button" sınıfına sahip butonun stilini değiştirir */
+.my-custom-button.mat-mdc-raised-button {
+  background-color: #f7f7f7 !important;
+  color: #333 !important; /* Metin rengini koyu gri yapar */
+}
+/* Normal durum için buton stili */
+.my-custom-button.mat-mdc-raised-button {
+  background-color: #f7f7f7 !important;
+  color: #333 !important;
+}
+
+/* Butonun üzerine gelindiğinde (hover) uygulanacak stil */
+.my-custom-button.mat-mdc-raised-button:hover {
+  background-color: #e0e0e0 !important; /* Bir parça daha koyu gri */
+  color: #007bff !important; /* Mavi metin rengi */
+}
+
+/* Butona tıklandığında (active) uygulanacak stil */
+.my-custom-button.mat-mdc-raised-button:active {
+  background-color: #d0d0d0 !important; /* Daha da koyu gri */
+  color: #0056b3 !important; /* Daha koyu mavi metin rengi */
+}
+.my-custom-button.mat-mdc-raised-button:active {
+  background-color: #d0d0d0 !important; /* Biraz daha koyu gri */
+  color: #0056b3 !important; /* Daha koyu mavi metin rengi */
+  /* Active durumunda daha belirgin bir gölge */
+  box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.2),
+              0px 8px 10px 1px rgba(0,0,0,0.14),
+              0px 3px 14px 2px rgba(0,0,0,0.12) !important;
+}
+
+/* Angular Material'ın ripple (dalgalanma) efektinin rengini de değiştirebiliriz */
+.my-custom-button.mat-mdc-raised-button .mat-mdc-button-persistent-ripple {
+  background-color: rgba(0, 123, 255, 0.2) !important; /* Mavi tonunda transparan dalgalanma */
+}
+/* Açılan menü panelinin arka plan rengini değiştirir */
+.ozel-cinsiyet-paneli {
+  background-color: #f5f5f5 !important;
+}
+
+/* Seçeneklerin üzerine gelindiğinde (hover) rengini değiştirir */
+.ozel-cinsiyet-paneli .mat-option:hover:not(.mat-option-disabled) {
+  background-color: #e0e0e0 !important;
+}
+
+/* Seçili seçeneğin arka plan ve metin rengini değiştirir */
+.ozel-cinsiyet-paneli .mat-option.mat-selected:not(.mat-option-disabled) {
+  background-color: #d3d3d3 !important;
+  color: #333333 !important;
+}
+
+/*
+  Aşağıdaki kod, Angular'ın dahili tema sınıflarını (mat-primary, mat-accent) hedefleyerek
+  seçili alanın kırmızı kalmasını engellemek için daha spesifik bir çözümdür.
+*/
+.ozel-cinsiyet-paneli .mat-option.mat-selected:not(.mat-option-disabled) .mat-pseudo-checkbox-checked,
+.ozel-cinsiyet-paneli .mat-option.mat-selected:not(.mat-option-disabled) {
+  background-color: #d3d3d3 !important;
+  color: #333333 !important;
+}
+
+/* Seçim kutusunun kenarlık ve etiket rengini değiştirir */
+.mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {
+  color: #d3d3d3 !important;
+}
+
+.mat-form-field-appearance-outline.mat-focused .mat-form-field-label {
+  color: #a9a9a9 !important;
+}
+
+/* Seçili değerin ve ok simgesinin rengini değiştirir */
+.mat-select-value, .mat-select-arrow {
+  color: #a9a9a9 !important;
+}
+.ozel-cinsiyet-paneli .mat-option.mat-selected:not(.mat-option-disabled) {
+  background-color: #d3d3d3 !important;
+  color: #333333 !important;
+}
+/*
+  Bu kod, açılan menü panelinin ve seçeneklerin renklerini değiştirmek için
+  en agresif ve en spesifik seçicileri kullanır.
+  !important, tüm temaları ve diğer stilleri ezmeyi garanti eder.
+*/
+
+/* 1. Açılan menü panelinin arka plan rengini değiştirir */
+.ozel-cinsiyet-paneli {
+  background-color: #f5f5f5 !important;
+}
+
+/* 2. Seçili seçeneğin arka plan rengini değiştirir */
+.ozel-cinsiyet-paneli .mat-option.mat-selected:not(.mat-option-disabled) {
+  background-color: #d3d3d3 !important;
+  color: #333333 !important;
+}
+
+/* 3. Seçili seçeneğin yanındaki tik işaretinin rengini değiştirir */
+.ozel-cinsiyet-paneli .mat-option.mat-selected .mat-pseudo-checkbox {
+  background-color: #d3d3d3 !important;
+  color: #333333 !important;
+  border-color: #333333 !important;
+}
+
+/* 4. Seçeneklerin üzerine gelindiğinde (hover) rengini değiştirir */
+.ozel-cinsiyet-paneli .mat-option:hover:not(.mat-option-disabled) {
+  background-color: #e0e0e0 !important;
+}
+
+/* 5. Seçim kutusunun kenarlık ve etiket rengini değiştirir */
+.mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {
+  color: #d3d3d3 !important;
+}
+
+.mat-form-field-appearance-outline.mat-focused .mat-form-field-label {
+  color: #a9a9a9 !important;
+}
+
+/* 6. Seçili değerin ve ok simgesinin rengini değiştirir */
+.mat-select-value, .mat-select-arrow {
+  color: #a9a9a9 !important;
+}
+/*
+  Bu kod, Angular Material'ın dahili renk değişkenlerini ve
+  seçili öğenin arka plan rengini değiştirmek için en son çare çözümdür.
+*/
+
+/* 1. Seçili öğenin arka plan rengini kesin olarak değiştirir */
+.mat-option.mat-selected:not(.mat-option-disabled) {
+  background-color: #d3d3d3 !important;
+  color: #333333 !important;
+}
+
+/* 2. Açılan menü panelinin arka plan rengini değiştirir */
+.mat-select-panel {
+  background-color: #f5f5f5 !important;
+}
+
+/* 3. Seçeneklerin üzerine gelindiğinde (hover) rengini değiştirir */
+.mat-option:hover:not(.mat-option-disabled) {
+  background-color: #e0e0e0 !important;
+}
+
+/* 4. Seçim kutusunun kenarlık ve etiket rengini değiştirir */
+.mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {
+  color: #d3d3d3 !important;
+}
+
+.mat-form-field-appearance-outline.mat-focused .mat-form-field-label {
+  color: #a9a9a9 !important;
+}
+
+/* 5. Seçili değerin ve ok simgesinin rengini değiştirir */
+.mat-select-value, .mat-select-arrow {
+  color: #a9a9a9 !important;
+}
+/* Bu stil, seçili mat-option için arka plan rengi değişkenini beyazımsı gri olarak ayarlar */
+:root {
+  --mat-option-selected-state-layer-color: #d3d3d3 !important;
+}
+
+/* Bu stil, seçili mat-option için metin rengi değişkenini koyu gri olarak ayarlar */
+:root {
+  --mat-option-selected-state-label-text-color: #333333 !important;
+}
+
+/* Ayrıca, mat-select'in açılan menüsü için arka plan rengini de değiştirir */
+.mat-select-panel {
+  background-color: #f5f5f5 !important;
+}
+
+/* Seçeneklerin üzerine gelindiğinde (hover) rengini değiştirir */
+.mat-option:hover:not(.mat-option-disabled) {
+  background-color: #e0e0e0 !important;
+}
+
+/* Seçim kutusunun kenarlık ve etiket rengini değiştirir */
+.mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {
+  color: #d3d3d3 !important;
+}
+
+.mat-form-field-appearance-outline.mat-focused .mat-form-field-label {
+  color: #a9a9a9 !important;
+}
+.mt-1 {
+    margin-top: 20px;
+}

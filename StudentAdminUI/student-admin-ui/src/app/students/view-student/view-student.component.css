@@ -1,0 +1,51 @@
+.p-1{
+    padding: 20px 0px;
+}
+.example-full-width {
+    width: 100%;
+}
+/* styles.scss veya styles.css dosyanıza ekleyin */
+
+/* Seçili tarihin arkaplan rengini ve metin rengini değiştirir */
+.mat-calendar-body-cell-content.mat-calendar-body-selected {
+  background-color: #007bff !important; /* Mavi renk örneği */
+  color: white !important; /* Seçili tarihin metin rengi */
+}
+/* styles.scss veya styles.css dosyanıza ekleyin */
+
+/* Bugünün tarihinin (seçili değilse) halka rengini değiştirir */
+.mat-calendar-body-cell-content.mat-calendar-body-today {
+  border-color: #333 !important; /* Koyu gri halka */
+}
+.my-custom-button.mat-mdc-raised-button {
+  background-color: #f7f7f7 !important; /* Takvim arka planıyla uyumlu */
+  color: #333 !important; /* Koyu gri metin rengi */
+  /* Varsayılan gölgeyi kaldırabiliriz, isteğe bağlı */
+  box-shadow: none !important;
+}
+
+/* Butonun üzerine gelindiğinde (hover) uygulanacak stil */
+.my-custom-button.mat-mdc-raised-button:hover {
+  background-color: #e0e0e0 !important; /* Daha açık, beyaza yakın gri */
+  color: #007bff !important; /* Mavi metin rengi */
+  /* Hover durumunda hafif bir gölge ekleyebiliriz */
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),
+              0px 4px 5px 0px rgba(0,0,0,0.14),
+              0px 1px 10px 0px rgba(0,0,0,0.12) !important;
+}
+.image-container {
+   width: 200px;
+    height: 200px;
+    background-color: #f7f7f7;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+      display: flex;
+    justify-content: center;
+    align-items: center;  
+    overflow: hidden;
+    object-fit: fill;
+}
+.image-container img {
+    width: 200px;
+   
+}

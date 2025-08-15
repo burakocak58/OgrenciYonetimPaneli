@@ -1,0 +1,29 @@
+table{
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+mat-paginator{
+   background-color:white;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.search-input{
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 21px;
+    padding: 8px 10px;
+
+}
+.search-input:focus{
+    border: 1px solid #aaa;
+}
+.search-input:active{
+    border: 1px solid #bbb;
+}
+.ozel-paginator .mat-menu-panel {
+  background-color: white !important;
+}
+
+.ozel-paginator .mat-menu-item {
+  background-color: white !important;
+  color: black !important;
+}
