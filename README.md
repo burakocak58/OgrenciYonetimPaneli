@@ -10,7 +10,7 @@ StudentAdminUI: Yönetici paneli arayüzü.
 
 Backend (API): C#
 
-Frontend (UI): TypeScript, CSS, HTML
+Frontend (UI): Angular, TypeScript, JavaScript, CSS, HTML
 
 🚀 Kurulum
 1. Backend Kurulumu
